@@ -18,6 +18,15 @@ export const registry: CalculatorEntry[] = [
     formulaText: 'Td = T - ((100 - RH) / 5)',
     description:
       'Calculates the dew point temperature from dry-bulb temperature and relative humidity using the Magnus-Tetens approximation.',
+  }
+  {
+    id: 'heat-index',
+    slug: 'heat-index',
+    name: 'Heat Index',
+    category: 'Thermal',
+    formulaText: 'Rothfusz Regression Equation',
+    description:
+      'Calculates the perceived temperature based on air temperature and relative humidity to assess heat stress risks.',
   },
   {
     id: 'fspl',
