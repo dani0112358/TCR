@@ -3,6 +3,7 @@ import Home from './pages/Home';
 import DewPoint from './pages/calculators/DewPoint';
 import FSPL from './pages/calculators/FSPL';
 import Dilution from './pages/calculators/Dilution';
+import HeatIndex from './pages/calculators/HeatIndex';
 
 export default function App() {
   return (
