@@ -12,6 +12,7 @@ export default function App() {
         <Route path="/calculators/dew-point" element={<DewPoint />} />
         <Route path="/calculators/fspl" element={<FSPL />} />
         <Route path="/calculators/dilution" element={<Dilution />} />
+        <Route path="/calculators/heat-index" element={<HeatIndex />} />
         <Route path="*" element={<Navigate to="/" replace />} />
       </Routes>
     </BrowserRouter>
