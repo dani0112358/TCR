@@ -6,7 +6,7 @@ import Dilution from './pages/calculators/Dilution';
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/TCR/">
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/calculators/dew-point" element={<DewPoint />} />
