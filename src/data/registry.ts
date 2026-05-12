@@ -18,7 +18,7 @@ export const registry: CalculatorEntry[] = [
     formulaText: 'Td = T - ((100 - RH) / 5)',
     description:
       'Calculates the dew point temperature from dry-bulb temperature and relative humidity using the Magnus-Tetens approximation.',
-  }
+  },
   {
     id: 'heat-index',
     slug: 'heat-index',
